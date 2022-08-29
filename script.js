@@ -85,6 +85,7 @@ decimal.addEventListener("click", (event) => {
 operators.forEach((operator) => {
     operator.addEventListener("click", (event) => {
         inputOperator(event.target.value);
+        updateScreen(currentNumber);
     });
 });
 
