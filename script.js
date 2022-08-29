@@ -1,9 +1,3 @@
-/*
-Note for future update :
-- Setelah menampilkan hasil, jika angka ditekan bukannya menulis dari ulang tetapi malah melanjutkan penulisan hasil (Done)
-- Operasi menggunakan tipe data floating tidak 100% akurat, selesaikan error 0.1 + 0.2 (Done)
-*/
-
 const numbers = document.querySelectorAll(".number");
 const calculatorScreen = document.querySelector('.calculator-screen');
 const operators = document.querySelectorAll(".operator");
